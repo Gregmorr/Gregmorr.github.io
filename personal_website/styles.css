@@ -24,3 +24,68 @@
 .project-card a:hover {
   text-decoration: underline;
 }
+
+/* ============================
+   PROJECTS SECTION
+   ============================ */
+
+#projects {
+  margin-top: 2rem;
+}
+
+#projects h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  color: #f1f5f9;
+  border-bottom: 2px solid #1e293b;
+  padding-bottom: 0.5rem;
+}
+
+/* Project Card */
+.project-card {
+  background: #0f172a;                 /* Dark slate */
+  border: 1px solid #1e293b;           /* Subtle border */
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.project-card:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 4px 12px rgba(56, 189, 248, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Project Title */
+.project-card h3 {
+  color: #f8fafc;
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+/* Description */
+.project-card p {
+  color: #cbd5e1;
+  margin-bottom: 0.6rem;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+/* "Tech Used" Bold Text */
+.project-card p strong {
+  color: #e2e8f0;
+}
+
+/* GitHub Link */
+.project-card a {
+  color: #38bdf8;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

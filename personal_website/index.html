@@ -11,16 +11,16 @@
 
     </head>
     <body>
-        <header>
+        <header class="hero-header">
             <h1> Gregory Morrison </h1>
             <p> Undergraduate Student Pursuing a B.S. in Computer Science at the University of Oregon </p>
         </header>
 
-        <nav>
+        <nav class="nav-links">
             <a href="#about">About</a>
+            <a href="#skills">Skills</a>
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
             <a href="#projects">Projects</a>
             <a href="#contact">Contact</a>
         </nav>
@@ -28,19 +28,38 @@
         <main>
             <section id="about">
                 <h2>About Me</h2>
-                <p>I am currently a Junior at the University of Oregon, pursuing a major in Computer Science. I am interested in the future of technology, especially the field of AI, and how it can be used to improve lives. I enjoy designing, debugging, and writing code in multiple languages while always trying to expand my skills. My goal is to create innovative and ethical solutions that shine light on the capabilities of technology and how it can positively impact society.</p>
+                <div class="about-card">
+                    <p>I am currently a Junior at the University of Oregon, pursuing a major in Computer Science. 
+                I am interested in the future of technology, especially the field of AI, and how it can be used to improve lives. 
+                I enjoy designing, debugging, and writing code in multiple languages while always trying to expand my skills. 
+                My goal is to create innovative and ethical solutions that shine light on the capabilities of technology and how it can positively impact society.
+                   </p>
+                </div>
             </section>
 
             <section id="skills">
                 <h2>Technical Skills</h2>
+
+                <div class="skill-grid-match">
+
+                <div class="skill-card-match">
+                    <h3>Programming Languages</h3>
                 <ul>
                     <li>Python</li>
-                    <li>C,C++</li>
+                    <li>C, C++</li>
                     <li>HTML/CSS</li>
-                    <li>Linux/Unix</li>
                     <li>SQL</li>
                 </ul>
+            </div>
 
+            <div class="skill-card-match">
+                <h3>Tools and Frameworks</h3>
+                <ul>
+                    <li>Unix/Linux</li>
+                    <li>Git/Github/GithubDesktop</li>
+                    <li>Pandas / NumPy</li>
+                </ul>
+            </div>
             </section>
 
             <section id="education">
@@ -61,7 +80,7 @@
 
                 <div class="exp-item">
                     <h3>Technical Consultant</h3>
-                    <p class="exp-meta">Oregon Software Consultants · Eugene, OR · September 2024 U+002d Present</p>
+                    <p class="exp-meta">Oregon Software Consultants · Eugene, OR · September 2024 - Present</p>
                     <ul>
                         <li>Consulted directly with clients to clarify project goals, walking them through development logistics</li>
                         <li>Collaborated with local Oregon brands to scope, design, and build custom software solutions (websites, apps, internal tools)</li>
@@ -127,6 +146,16 @@
 
             </section>
         </main>
-
+        <div class="floating-links">
+            <a href="#contact" class="fab" title="Contact">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://github.com/Gregmorr" class="fab" target="_blank" title="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/gregmorrison12/" class="fab" target="_blank" title="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+        </div>
     </body>
 </html>
